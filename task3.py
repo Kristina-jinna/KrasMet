@@ -73,8 +73,7 @@ class Connection():
         return listOfUser
 
 
-
-#if __name__ == "__main__":
-#    con = Connection('https', 'reqres.in')
-#    con.getListOfUser(['api', 'users'])
-#    con.getCurrentUser(['api', 'users'], 1)
+if __name__ == "__main__":
+    con = Connection('https', 'reqres.in')
+    con.getListOfUser(['api', 'users'])
+    con.getCurrentUser(['api', 'users'], 1)
